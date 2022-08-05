@@ -21,10 +21,11 @@ body {
   font-size: 1.8rem;
   font-family: "Outfit", sans-serif;
   background-color: var(--darkest-blue);
+  min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 .container {
@@ -39,11 +40,11 @@ body {
 /* Image container*/
 
 .img-container {
-  align-items: center;
   display: flex;
-  height: 30rem;
+  align-items: center;
   justify-content: center;
   position: relative;
+  height: 30rem;
 }
 
 .img-container .image,
@@ -55,14 +56,14 @@ body {
 }
 
 .img-container .overlay {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  position: absolute;
   background-image: linear-gradient(rgba(0, 255, 247, .30), rgba(0, 255, 247, .35));
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
   opacity: 0;
-  position: absolute;
   transition: all .2s;
 }
 
@@ -81,8 +82,8 @@ body {
 .title {
   color: var(--white);
   font-size: 2rem;
-  transition: all 0.3s;
   margin-bottom: 1.5rem;
+  transition: all 0.3s;
 }
 
 .title:hover {
@@ -95,8 +96,8 @@ body {
   color: var(--soft-blue);
   font-size: 1.6rem;
   font-weight: 300;
-  margin-bottom: 2.5rem;
   line-height: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .ethereum-container,
@@ -118,8 +119,8 @@ body {
 
 .price-and-days {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 2.5rem;
 }
 
@@ -127,8 +128,8 @@ body {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  border-top: 1px solid var(--dark-blue);
   padding: 1.5rem 0;
+  border-top: 1px solid var(--dark-blue);
 }
 
 .creator-details img {
@@ -144,8 +145,8 @@ body {
 
 .creator-name-link {
   color: var(--white);
-  transition: all 0.3s;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .creator-name-link:hover {
