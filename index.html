@@ -26,10 +26,15 @@
   <body>
     <main class="container">
       <div class="img-container">
-        <img
-          src="./images/image-equilibrium.jpg"
-          alt="an image of a glass cube"
-        />
+        <div class="image">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="colorful glass cube image"
+          />
+        </div>
+        <div class="overlay">
+          <img src="./images/icon-view.svg" alt="eye icon" />
+        </div>
       </div>
       <div class="text-container">
         <h1 class="title">Equilibrium #3429</h1>
@@ -37,20 +42,26 @@
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div class="space-between-container">
-          <span class="ethereum-container"
-            ><img src="./images/icon-ethereum.svg" alt="Ethereum icon" />
-            <p class="eth-value">0.041 ETH</p></span
-          >
-          <span class="days-container"
-            ><img src="./images/icon-clock.svg" alt="Clock icon" />
-            <p class="days-left">3 days left</p></span
-          >
-        </div>
+        <ul class="price-and-days">
+          <li class="ethereum-container">
+            <img src="./images/icon-ethereum.svg" alt="Ethereum icon" />
+            <p class="eth-value">0.041 ETH</p>
+          </li>
+          <li class="days-container">
+            <img src="./images/icon-clock.svg" alt="Clock icon" />
+            <p class="days-left">3 days left</p>
+          </li>
+        </ul>
         <div class="creator-details">
           <img src="./images/image-avatar.png" alt="Jules Wyvern image" />
           <p class="creator-name">
-            Creation of <span class="creator-name-link">Jules Wyvern</span>
+            Creation of
+            <a
+              href="https://github.com/sauravjalui"
+              target="_blank"
+              class="creator-name-link"
+              >Jules Wyvern</a
+            >
           </p>
         </div>
       </div>
